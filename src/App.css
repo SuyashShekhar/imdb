@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body{
+  background-color: #040304;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.homeBg{
+  background: url('https://cdn.discordapp.com/attachments/780837848030380112/929812133288493086/cover_image.png');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100wv;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+  top: 12rem;
+  flex-direction: column;
+}
+
+.home h1{
+  font-size: 3.125rem;
+  color: white;
+}
+
+.home input{
+  text-align: center;
+  font-size: 16px;
+  width: 26%;
+  padding: 10px 40px;
+}
+
+.home button{
+  background: #f40612;
+  font-size: 26px;
+  border: none;
+  padding: 8px 30px;
+  margin-top: 8px;
+  border-radius: 4px;
+}
+
+.home button a{
+  text-decoration: none;
+  color: white;
+}
+
+.movieCardTitle{
+  text-align: center;
+  font-size: 1rem;
+}
+
+
+.movieCardImg{
+  width: 12rem;
+  height: auto;
+  display: flex;
+  margin: auto;
+}
+
+.movieCardLink{
+  color: white;
+  text-decoration: none;
+}
+
+.movieCard{
+  border-radius: 8px;
+  border: 2px solid black;
+  width: 20%;
+  margin: 4px;
+}
+
+.movieCards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  
+}
+
+.castName{
+  margin-top: 4rem;
+}
+
+.castActors{
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.castCircle{
+  max-width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.castActorName{
+  margin-left: 2 rem;
+  color: white;
+  text-decoration: none;
+}
+
+.actorLink{
+  text-decoration: none;
 }
