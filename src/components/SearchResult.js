@@ -4,7 +4,7 @@ import axios from 'axios';
 
 function SearchResult() {
   const {movie} = useParams();
-  const url = `https://imdb-api.com/en/API/Search/k_tes6tu6w/${movie}`;
+  const url = `https://imdb-api.com/en/API/Search/k_9r77yjoe/${movie}`;
 
 
   const [data, setData] = useState();

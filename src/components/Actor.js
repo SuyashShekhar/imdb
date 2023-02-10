@@ -6,7 +6,7 @@ function Actor() {
 
 const {actorId} = useParams();
 
-const url=`https://imdb-api.com/en/API/Name/k_tes6tu6w/${actorId}`
+const url=`https://imdb-api.com/en/API/Name/k_9r77yjoe/${actorId}`
 
 
 const [data, setData] = useState();

@@ -5,8 +5,8 @@ import axios from 'axios';
 
 function Movie() {
     const {movieId} = useParams();
-    const url = `https://imdb-api.com/en/API/Title/k_tes6tu6w/${movieId}`
-    const url1 = `https://imdb-api.com/en/API/Trailer/k_tes6tu6w/${movieId}`
+    const url = `https://imdb-api.com/en/API/Title/k_9r77yjoe/${movieId}`
+    const url1 = `https://imdb-api.com/en/API/Trailer/k_9r77yjoe/${movieId}`
      
     const [data,setData] = useState();
     const [trailer,setTrailer] = useState();
